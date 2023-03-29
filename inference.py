@@ -65,7 +65,7 @@ def get_base_dir():
     return os.path.abspath(os.path.join(homedir, base_dir))
 
 def get_models_dir():
-    return os.path.join(get_base_dir(), "blossom/model")
+    return os.path.join(get_base_dir(), "blossom_inference/model")
 
 def dice_coefficient(y_true, y_pred):
     eps = 1e-6
